@@ -16,9 +16,9 @@ This repository contains the official code of DS-TransUNet: Dual Swin Transforme
 2. **Testing**
 	+ Downloading our trained DS-TransUNet-B from [Baidu Pan](https://pan.baidu.com/s/1EFZOX1C84mg1mVK6cAvpxg) (dd79), and move it into `./checkpoints`.
 	+ run `test_kvasir.py`
-	+ run `crcriteria.py` to get the DICE score, which uses [EvaluateSegmentation](https://github.com/Visceral-Project/EvaluateSegmentation). Or you can download our result images from [Baidu Pan](https://pan.baidu.com/s/1EFZOX1C84mg1mVK6cAvpxg) (dd79).
+	+ run `criteria.py` to get the DICE score, which uses [EvaluateSegmentation](https://github.com/Visceral-Project/EvaluateSegmentation). Or you can download our result images from [Baidu Pan](https://pan.baidu.com/s/1EFZOX1C84mg1mVK6cAvpxg) (dd79).
 3. **Training**
-	+ downloading `Swin-T` and `Swin-B` from [Swin-Transformer](https://github.com/microsoft/Swin-Transformer) to `./checkpoints`.
+	+ downloading `Swin-T` and `Swin-B` from [Swin-Transformer](https://github.com/microsoft/Swin-Transformer) or [Baidu Pan](https://pan.baidu.com/s/1CD52UXHnDp-oRhv0sHrLcw?pwd=ji2g) (ji2g) to `./checkpoints`.
 	+ run `train_kvasir.py`
 
 
